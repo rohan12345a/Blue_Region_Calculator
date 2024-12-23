@@ -15,6 +15,13 @@ Before running this application, ensure you have the following Python packages i
 - `Pillow`
 - `streamlit`
 
+## User Application Interface
+
+
+https://github.com/user-attachments/assets/7cb6f6bc-8694-4287-8e7d-01167f325f45
+
+
+
 You can install these dependencies by running:
 
 ```bash
