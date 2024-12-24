@@ -7,7 +7,6 @@ from PIL import Image
 # Streamlit app
 st.title("Blue Region Percentage Calculator")
 
-# File uploader for image input
 uploaded_file = st.file_uploader("Choose an image...", type=["png", "jpg", "jpeg"])
 
 if uploaded_file is not None:
