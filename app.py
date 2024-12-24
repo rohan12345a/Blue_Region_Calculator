@@ -28,7 +28,6 @@ if uploaded_file is not None:
 
     blue_mask = cv2.inRange(hsv_image, min_hsv, max_hsv)
 
-    # Count the number of blue pixels
     blue_pixels = cv2.countNonZero(blue_mask)
 
     total_pixels = image.shape[0] * image.shape[1]
